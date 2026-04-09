@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Media Review">b4e09bf693c8c71039d0367efaba10ce</cat_item>
+        <cat_item display_value="Media Review Scripting">43ef2bcb93c0031039d0367efaba108b</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -19,15 +19,15 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>poster</dynamic_value_dot_walk_path>
-        <dynamic_value_field display_value="Select the media you want to review:">f6de53b2934cc71039d0367efaba1021</dynamic_value_field>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
+        <hidden>false</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -45,14 +45,14 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>poster_url</name>
+        <name>poster</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>400</order>
+        <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Poster URL:</question_text>
+        <question_text>Poster</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -76,24 +76,24 @@
         <scale_min>0</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
-        <sp_widget/>
+        <sp_widget display_value="poster">5f477fb293000b1039d0367efaba1082</sp_widget>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:23:54</sys_created_on>
-        <sys_id>71f873b693000b1039d0367efaba1083</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Poster URL:</sys_name>
+        <sys_created_on>2026-04-09 14:22:20</sys_created_on>
+        <sys_id>9bef6bcb93c0031039d0367efaba1028</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Poster</sys_name>
         <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
-        <sys_update_name>item_option_new_71f873b693000b1039d0367efaba1083</sys_update_name>
+        <sys_update_name>item_option_new_9bef6bcb93c0031039d0367efaba1028</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 13:36:54</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:22:20</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>6</type>
+        <type>14</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -109,22 +109,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=71f873b693000b1039d0367efaba1083"/>
-    <fx_price action="delete_multiple" query="id=71f873b693000b1039d0367efaba1083"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=9bef6bcb93c0031039d0367efaba1028"/>
+    <fx_price action="delete_multiple" query="id=9bef6bcb93c0031039d0367efaba1028"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>price_if_checked</field>
-        <id>71f873b693000b1039d0367efaba1083</id>
+        <id>9bef6bcb93c0031039d0367efaba1028</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:23:55</sys_created_on>
-        <sys_id>261977b693000b1039d0367efaba1009</sys_id>
+        <sys_created_on>2026-04-09 14:22:20</sys_created_on>
+        <sys_id>63ef6bcb93c0031039d0367efaba1037</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-08 20:23:55</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:22:20</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -132,16 +132,16 @@
         <amount>0</amount>
         <currency display_value="EUR">EUR</currency>
         <field>rec_price_if_checked</field>
-        <id>71f873b693000b1039d0367efaba1083</id>
+        <id>9bef6bcb93c0031039d0367efaba1028</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:23:55</sys_created_on>
-        <sys_id>621977b693000b1039d0367efaba1008</sys_id>
+        <sys_created_on>2026-04-09 14:22:20</sys_created_on>
+        <sys_id>afef6bcb93c0031039d0367efaba1035</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-08 20:23:55</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:22:20</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

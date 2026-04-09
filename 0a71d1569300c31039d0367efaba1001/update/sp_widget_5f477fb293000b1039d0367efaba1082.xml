@@ -6,7 +6,20 @@
   var c = this;
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>.poster_holder {&#13;
+&#13;
+	display:flex;&#13;
+&#13;
+  	justify-content: center;&#13;
+&#13;
+}&#13;
+ &#13;
+#poster_image {&#13;
+&#13;
+width: 300px;&#13;
+&#13;
+}&#13;
+ </css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -32,17 +45,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-08 20:16:57</sys_created_on>
         <sys_id>5f477fb293000b1039d0367efaba1082</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>poster</sys_name>
         <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
         <sys_update_name>sp_widget_5f477fb293000b1039d0367efaba1082</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-08 20:21:36</sys_updated_on>
-        <template><![CDATA[<div>
-<!-- your widget template -->
-  <img src="" id="poster_image"/>
+        <sys_updated_on>2026-04-09 14:06:52</sys_updated_on>
+        <template><![CDATA[<div class="poster_holder">
+	<img id="poster_image" />
 </div>]]></template>
     </sp_widget>
 </record_update>
