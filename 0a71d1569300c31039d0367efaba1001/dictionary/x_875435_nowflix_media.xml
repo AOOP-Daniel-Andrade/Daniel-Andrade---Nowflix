@@ -21,9 +21,9 @@
                 <element inactive_on_update="false" label="Movie" sequence="1" value="movie"/>
             </choice>
         </element>
-        <element choice="1" label="State" max_length="40" name="state" type="choice">
+        <element choice="1" default="1" label="State" max_length="40" name="state" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Drafting" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
                 <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
             </choice>
         </element>
@@ -32,6 +32,7 @@
         <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
         <element label="Language" max_length="250" name="language" type="string"/>
         <element label="Writers" max_length="4000" name="writers" type="string"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
         <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Genre" max_length="1024" name="genre" reference="x_875435_nowflix_genre" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" default="0" label="Average rating" max_length="255" name="average_rating" type="float"/>
         <element display="true" label="Title" max_length="250" name="title" type="string"/>
