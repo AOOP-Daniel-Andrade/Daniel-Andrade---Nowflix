@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Copy of Media Review">38ee2b899390071039d0367efaba10d5</catalog_item>
+        <catalog_variable>IO:78ee6b899390071039d0367efaba1023</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-15 19:25:39</sys_created_on>
+        <sys_id>59ee6b899390071039d0367efaba10f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>synopsis</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_59ee6b899390071039d0367efaba10f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-15 19:25:39</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Visible and Read Only Fields">d1ee6b899390071039d0367efaba10e8</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>synopsis</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=59ee6b899390071039d0367efaba10f9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">0a71d1569300c31039d0367efaba1001</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>catalog_ui_policy_action_59ee6b899390071039d0367efaba10f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Copy of Media Review">38ee2b899390071039d0367efaba10d5</catalog_item><catalog_variable>IO:78ee6b899390071039d0367efaba1023</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-15 19:25:39</sys_created_on><sys_id>59ee6b899390071039d0367efaba10f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>synopsis</sys_name><sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package><sys_policy/><sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope><sys_update_name>catalog_ui_policy_action_59ee6b899390071039d0367efaba10f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-15 19:25:39</sys_updated_on><table/><ui_policy display_value="Visible and Read Only Fields">d1ee6b899390071039d0367efaba10e8</ui_policy><value/><value_action>ignore</value_action><variable>synopsis</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=59ee6b899390071039d0367efaba10f9"/></record_update>]]></payload>
+        <payload_hash>1536265081</payload_hash>
+        <record_name>synopsis</record_name>
+        <reverted_from/>
+        <source>e766d51e9300c31039d0367efaba109f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-15 19:25:39</sys_created_on>
+        <sys_id>51eeab899390071039d0367efaba100c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d929b3a5f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-15 19:25:39</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>1deeab898b900710ae01d3a4c5728f0a</update_guid>
+        <update_guid_history>1deeab898b900710ae01d3a4c5728f0a:1536265081</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="synopsis">7b4f2fc99390071039d0367efaba10dd</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-15 19:27:28</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>a72bf435c3de4f10888a87a584e74f90</sys_id>
+        <sys_metadata>59ee6b899390071039d0367efaba10f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>synopsis</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_scope_delete display_value="">71049ca772e54fac98394d0831409124</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_59ee6b899390071039d0367efaba10f9</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_59ee6b899390071039d0367efaba10f9">51eeab899390071039d0367efaba100c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-15 19:27:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
