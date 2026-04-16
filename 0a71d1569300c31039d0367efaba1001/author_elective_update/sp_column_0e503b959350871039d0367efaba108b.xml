@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>3</order>
+        <semantic_tag/>
+        <size>4</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">4250f3559350871039d0367efaba10a6</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:10:28</sys_created_on>
+        <sys_id>0e503b959350871039d0367efaba108b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_update_name>sp_column_0e503b959350871039d0367efaba108b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:10:28</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">0a71d1569300c31039d0367efaba1001</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sp_column_0e503b959350871039d0367efaba108b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>3</order><semantic_tag/><size>4</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">4250f3559350871039d0367efaba10a6</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 14:10:28</sys_created_on><sys_id>0e503b959350871039d0367efaba108b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package><sys_policy/><sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope><sys_update_name>sp_column_0e503b959350871039d0367efaba108b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 14:10:28</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-197032042</payload_hash>
+        <record_name>3</record_name>
+        <reverted_from/>
+        <source>e766d51e9300c31039d0367efaba109f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:10:28</sys_created_on>
+        <sys_id>8e503b959350871039d0367efaba108e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d96a107220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:10:28</sys_updated_on>
+        <type>Column</type>
+        <update_guid>8a503b9584508710bb4cbb7148fce78d</update_guid>
+        <update_guid_history>8a503b9584508710bb4cbb7148fce78d:-197032042</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3">9e91b3599350871039d0367efaba1042</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:15:57</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>9c07f31e92ef4d809a3c55e72db87210</sys_id>
+        <sys_metadata>0e503b959350871039d0367efaba108b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_scope_delete display_value="">71049ca772e54fac98394d0831409124</sys_scope_delete>
+        <sys_update_name>sp_column_0e503b959350871039d0367efaba108b</sys_update_name>
+        <sys_update_version display_value="sp_column_0e503b959350871039d0367efaba108b">8e503b959350871039d0367efaba108e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:15:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

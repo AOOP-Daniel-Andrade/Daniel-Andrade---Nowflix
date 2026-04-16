@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>title,type,release_year</field_list>
+        <filter table="x_875435_nowflix_media">release_dateISNOTEMPTY<item endquery="false" field="release_date" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>release_year</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">27e0fb959350871039d0367efaba1072</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:17:51</sys_created_on>
+        <sys_id>4602f3599350871039d0367efaba100b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_update_name>sp_instance_table_4602f3599350871039d0367efaba100b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:19:46</sys_updated_on>
+        <table>x_875435_nowflix_media</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=4602f3599350871039d0367efaba100b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">0a71d1569300c31039d0367efaba1001</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sp_instance_table_4602f3599350871039d0367efaba100b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>title,type,release_year</field_list><filter table="x_875435_nowflix_media">release_dateISNOTEMPTY<item endquery="false" field="release_date" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/></filter><glyph/><id/><maximum_entries>5</maximum_entries><order>1</order><order_by>release_year</order_by><order_direction>desc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">27e0fb959350871039d0367efaba1072</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-16 14:17:51</sys_created_on><sys_id>4602f3599350871039d0367efaba100b</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package><sys_policy/><sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope><sys_update_name>sp_instance_table_4602f3599350871039d0367efaba100b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-16 14:19:46</sys_updated_on><table>x_875435_nowflix_media</table><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=4602f3599350871039d0367efaba100b"/></record_update>]]></payload>
+        <payload_hash>-1046677179</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>e766d51e9300c31039d0367efaba109f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:19:46</sys_created_on>
+        <sys_id>1672bf999350871039d0367efaba10ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d96a98b120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:19:46</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>9272bf99645087102aac028037851fe9</update_guid>
+        <update_guid_history>9272bf99645087102aac028037851fe9:-1046677179,a632f7996d5087107c93fcb9c61a1349:-1469275921,0a02f3590b5087104f22cb4fa5a5f20e:1463141280</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">7aa277999350871039d0367efaba10aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-16 14:20:37</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>a60f240973cb4020a732d42585542400</sys_id>
+        <sys_metadata>4602f3599350871039d0367efaba100b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_scope_delete display_value="">71049ca772e54fac98394d0831409124</sys_scope_delete>
+        <sys_update_name>sp_instance_table_4602f3599350871039d0367efaba100b</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_4602f3599350871039d0367efaba100b">1672bf999350871039d0367efaba10ea</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-16 14:20:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

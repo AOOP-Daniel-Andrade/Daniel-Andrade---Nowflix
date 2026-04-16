@@ -39,7 +39,7 @@
         <message_html><![CDATA[<p>Hello ${opened_by.first_name},</p>
 <p>Thank you for your review of the ${media.type} "${media.title}".</p>
 <p>Sadly, it was <strong>reproved</strong>.</p>
-<p>Reproval reason: ${reproval_reason}</p>
+<p>${reproval_reason}</p>
 <p><img style="width: 300px;" src="${media.poster}"></p>
 <p>If you want to send more reviews, please click <a href="/sp?id=sc_cat_item&amp;sys_id=b4e09bf693c8c71039d0367efaba10ce">here</a>.</p>]]></message_html>
         <message_list/>
@@ -63,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>488d3d2f9380c31039d0367efaba107e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Review Reproved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
@@ -71,7 +71,7 @@
         <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
         <sys_update_name>sysevent_email_action_488d3d2f9380c31039d0367efaba107e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 20:06:42</sys_updated_on>
+        <sys_updated_on>2026-04-16 16:57:18</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
