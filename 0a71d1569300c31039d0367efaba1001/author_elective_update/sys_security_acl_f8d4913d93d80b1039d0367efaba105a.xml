@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_875435_nowflix_m2m_media_actor</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 16:07:57</sys_created_on>
+        <sys_id>f8d4913d93d80b1039d0367efaba105a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_875435_nowflix_m2m_media_actor</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_update_name>sys_security_acl_f8d4913d93d80b1039d0367efaba105a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 16:07:57</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">0a71d1569300c31039d0367efaba1001</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sys_security_acl_f8d4913d93d80b1039d0367efaba105a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description/><local_or_existing>Local</local_or_existing><name>x_875435_nowflix_m2m_media_actor</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-17 16:07:57</sys_created_on><sys_id>f8d4913d93d80b1039d0367efaba105a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_875435_nowflix_m2m_media_actor</sys_name><sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package><sys_policy/><sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope><sys_update_name>sys_security_acl_f8d4913d93d80b1039d0367efaba105a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-17 16:07:57</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-948164694</payload_hash>
+        <record_name>x_875435_nowflix_m2m_media_actor</record_name>
+        <reverted_from/>
+        <source>e766d51e9300c31039d0367efaba109f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 16:07:57</sys_created_on>
+        <sys_id>f0d4d13d93d80b1039d0367efaba10fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d9c32f1be0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 16:07:57</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>fcd4d13dded80b100ae1130f222ce3fc</update_guid>
+        <update_guid_history>fcd4d13dded80b100ae1130f222ce3fc:-948164694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-17 16:10:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3b65b7c638fa44199116b231ebb294c1</sys_id>
+        <sys_metadata>f8d4913d93d80b1039d0367efaba105a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_875435_nowflix_m2m_media_actor</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_parent display_value="x_875435_nowflix_m2m_media_actor">e6c46ee29308471039d0367efaba109c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_scope_delete display_value="">71049ca772e54fac98394d0831409124</sys_scope_delete>
+        <sys_update_name>sys_security_acl_f8d4913d93d80b1039d0367efaba105a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_f8d4913d93d80b1039d0367efaba105a">f0d4d13d93d80b1039d0367efaba10fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-17 16:10:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
