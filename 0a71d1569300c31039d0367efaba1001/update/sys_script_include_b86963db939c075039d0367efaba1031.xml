@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_875435_nowflix.NowflixUtils2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>NowflixUtils2</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var NowflixUtils2 = Class.create();
+NowflixUtils2.prototype = {
+        initialize: function() {},
+        refQualMedia: function() {
+ 
+            var moviesNotToBeShown = [];
+            var grReview = new GlideRecord("x_875435_nowflix_review");
+            grReview.addEncodedQuery("opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state!=4");
+            grReview.query();
+ 
+            while (grReview.next()) {
+                moviesNotToBeShown.push(grReview.media.sys_id.toString());
+            }
+            var moviesToBeShown = [];
+            var grMedia = new GlideRecord("x_875435_nowflix_media");
+            grMedia.addQuery("state", "3");
+            grMedia.query();
+ 
+            while (grMedia.next()) {
+                if (moviesNotToBeShown.indexOf(grMedia.getUniqueValue()) == -1) {
+                    moviesToBeShown.push(grMedia.getUniqueValue());
+                }
+            }
+            return "sys_idIN" + moviesToBeShown.join(",");
+        },
+ 
+            type: 'NowflixUtils2'
+        };
+
+// var NowflixUtils2 = Class.create();
+// NowflixUtils2.prototype = {
+//     initialize: function() {},
+// 	refQualMedia: function() {
+
+// 		var moviesToBeShown = [];
+// 		var grMedia = new GlideRecord("x_875435_nowflix_media");
+// 		grMedia.addQuery("state", "3");
+// 		grMedia.query();
+		
+// 		while (grMedia.next()){
+// 			var grReview = new GlideRecord("x_875435_nowflix_review");
+// 			grReview.addEncodedQuery("opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^state!=4^media="+grMedia.sys_id);
+// 			// grReview.addQuery("opened_by", gs.getUserID());
+// 			// grReview.addQuery("media", grMedia.sys_id);
+// 			// grReview.addQuery("state","!=","4");
+// 			grReview.query();
+// 			if(!grReview.next()){
+// 				moviesToBeShown.push(grMedia.getUniqueValue());
+// 			}
+// 		}
+// 		return "sys_idIN"+moviesToBeShown.join(",");
+// 	},
+//     type: 'NowflixUtils2'
+// };]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 18:47:55</sys_created_on>
+        <sys_id>b86963db939c075039d0367efaba1031</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NowflixUtils2</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_update_name>sys_script_include_b86963db939c075039d0367efaba1031</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 18:49:15</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_875435_nowflix.MediaFilterUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>MediaFilterUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MediaFilterUtils = Class.create();
+MediaFilterUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getMediasWithoutReviews: function() {
+        var mediasWithReviews = [];
+        
+        // 1. Buscar todos os registros na tabela de reviews (ex: u_media_review)
+        // Substitua 'u_media_review' e 'u_media' pelos nomes reais das suas tabelas/campos
+        var reviewGR = new GlideRecord('x_875435_nowflix_review');
+        reviewGR.query();
+        
+        while (reviewGR.next()) {
+            mediasWithReviews.push(reviewGR.getValue('media')); // Campo que referencia a Media
+        }
+
+        // 2. Retornar query: sys_id NÃO ESTÁ NA lista de mídias que possuem reviews
+        if (mediasWithReviews.length > 0) {
+            return "sys_idNOT IN" + mediasWithReviews.join(',');
+        }
+        
+        // Se não houver reviews, retorna tudo (ou active=true)
+        return "active=true";
+    },
+
+    type: 'MediaFilterUtils'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 14:34:29</sys_created_on>
+        <sys_id>480f6a539398075039d0367efaba109f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MediaFilterUtils</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_update_name>sys_script_include_480f6a539398075039d0367efaba109f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 14:39:18</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">0a71d1569300c31039d0367efaba1001</application>
+        <file_path/>
+        <instance_id>8877e91deba02610c040fddacad0cde9</instance_id>
+        <instance_name>dev311820</instance_name>
+        <name>sys_script_include_480f6a539398075039d0367efaba109f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_875435_nowflix.MediaFilterUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;MediaFilterUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var MediaFilterUtils = Class.create();
+MediaFilterUtils.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+
+    getMediasWithoutReviews: function() {
+        var mediasWithReviews = [];
+        
+        // 1. Buscar todos os registros na tabela de reviews (ex: u_media_review)
+        // Substitua 'u_media_review' e 'u_media' pelos nomes reais das suas tabelas/campos
+        var reviewGR = new GlideRecord('x_875435_nowflix_review');
+        reviewGR.query();
+        
+        while (reviewGR.next()) {
+            mediasWithReviews.push(reviewGR.getValue('media')); // Campo que referencia a Media
+        }
+
+        // 2. Retornar query: sys_id NÃO ESTÁ NA lista de mídias que possuem reviews
+        if (mediasWithReviews.length &gt; 0) {
+            return "sys_idNOT IN" + mediasWithReviews.join(',');
+        }
+        
+        // Se não houver reviews, retorna tudo (ou active=true)
+        return "active=true";
+    },
+
+    type: 'MediaFilterUtils'
+});
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-22 14:34:29&lt;/sys_created_on&gt;&lt;sys_id&gt;480f6a539398075039d0367efaba109f&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;MediaFilterUtils&lt;/sys_name&gt;&lt;sys_package display_value="Nowflix" source="x_875435_nowflix"&gt;0a71d1569300c31039d0367efaba1001&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Nowflix"&gt;0a71d1569300c31039d0367efaba1001&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_480f6a539398075039d0367efaba109f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-22 14:39:18&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-809602061</payload_hash>
+        <record_name>MediaFilterUtils</record_name>
+        <reverted_from/>
+        <source>e766d51e9300c31039d0367efaba109f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 14:39:19</sys_created_on>
+        <sys_id>8b703a179398075039d0367efaba100a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19db5a196320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 14:39:19</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>0b703a1778980750dcbdc11506ce1609</update_guid>
+        <update_guid_history>0b703a1778980750dcbdc11506ce1609:-809602061,bfffee13cc9807502345bd3fbdaa41e5:-1830768901,5c6f66936698075011244b9aae263e0b:1954207718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 14:42:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>091262bd756145908747c6f8f148a840</sys_id>
+        <sys_metadata>480f6a539398075039d0367efaba109f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MediaFilterUtils</sys_name>
+        <sys_package display_value="Nowflix" source="x_875435_nowflix">0a71d1569300c31039d0367efaba1001</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Nowflix">0a71d1569300c31039d0367efaba1001</sys_scope>
+        <sys_scope_delete display_value="">71049ca772e54fac98394d0831409124</sys_scope_delete>
+        <sys_update_name>sys_script_include_480f6a539398075039d0367efaba109f</sys_update_name>
+        <sys_update_version display_value="sys_script_include_480f6a539398075039d0367efaba109f">8b703a179398075039d0367efaba100a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-22 14:42:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
